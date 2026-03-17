@@ -1,0 +1,507 @@
+============================================================
+  Total-Order Multicast — Test Harness
+============================================================
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=0)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=1)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=2)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=3)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=4)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=5)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=6)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=7)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=8)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Concurrent conflicting  (N=4, ops=4, seed=9)
+============================================================
+  R0 state: {'x': '200_final'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R1 state: {'x': '200_final'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R2 state: {'x': '200_final'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  R3 state: {'x': '200_final'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=0)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=1)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=2)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=3)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=4)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=5)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=6)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=7)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=8)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: High contention  (N=4, ops=30, seed=9)
+============================================================
+  R0 state: {'counter': '30'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R1 state: {'counter': '30'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R2 state: {'counter': '30'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  R3 state: {'counter': '30'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-0-2', 'upd-1-2', 'upd-2-2', 'upd-3-2', 'upd-0-3', 'upd-1-3', 'upd-2-3', 'upd-3-3', 'upd-0-4', 'upd-1-4', 'upd-2-4', 'upd-3-4', 'upd-0-5', 'upd-1-5', 'upd-2-5', 'upd-3-5', 'upd-0-6', 'upd-1-6', 'upd-2-6', 'upd-3-6', 'upd-0-7', 'upd-1-7', 'upd-2-7', 'upd-3-7', 'upd-0-8', 'upd-1-8']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=0)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=1)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=2)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=3)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=4)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=5)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=6)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=7)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=8)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+Experiment: Non-conflicting  (N=5, ops=5, seed=9)
+============================================================
+  R0 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R0 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R1 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R1 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R2 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R2 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R3 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R3 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  R4 state: {'a': '1', 'b': '2', 'c': '3', 'd': '4', 'e': '5'}
+  R4 log:   ['upd-0-1', 'upd-1-1', 'upd-2-1', 'upd-3-1', 'upd-4-1']
+  All states equal:    True
+  All logs equal:      True
+  All msgs delivered:  True
+  PASSED
+
+============================================================
+  ALL EXPERIMENTS PASSED
+============================================================
