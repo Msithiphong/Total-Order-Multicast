@@ -14,8 +14,8 @@ class Network:
     def __init__(self, delay_range=(0, 0)):
         self.delay_range = delay_range          # (min_delay, max_delay) in ticks
         self.replicas: dict[int, object] = {}   # replica_id -> Replica
-        # in-flight messages: list of (deliver_at_tick, recipient_id, msg)
-        self.in_flight: list[tuple[int, int, object]] = []
+        # Per (sender, receiver) FIFO channel: deque of (deliver_at_tick, msg)
+        self.channels: dict[tuple[int, int], deque] = defaultdict(deque)
         self.current_tick = 0
 
     def register(self, replica):
@@ -24,31 +24,43 @@ class Network:
     def send(self, sender_id: int, recipient_id: int, msg):
         delay = random.randint(*self.delay_range)
         deliver_at = self.current_tick + delay
-        self.in_flight.append((deliver_at, recipient_id, msg))
+
+        channel = self.channels[(sender_id, recipient_id)]
+        # Enforce FIFO: new message cannot arrive before any already-queued message
+        if channel:
+            deliver_at = max(deliver_at, channel[-1][0])
+        channel.append((deliver_at, msg))
 
     def broadcast(self, sender_id: int, msg):
         for rid in self.replicas:
             self.send(sender_id, rid, msg)
 
     def tick(self):
-        """Advance one tick and deliver all messages due at this tick."""
-        ready = [m for m in self.in_flight if m[0] <= self.current_tick]
-        remaining = [m for m in self.in_flight if m[0] > self.current_tick]
-        self.in_flight = remaining
+        """Advance one tick and deliver all ready messages, preserving per-channel FIFO."""
+        made_progress = True
+        while made_progress:
+            made_progress = False
+            # Collect channels whose front message is ready
+            ready_keys = [
+                key for key, ch in self.channels.items()
+                if ch and ch[0][0] <= self.current_tick
+            ]
+            # Shuffle to simulate non-deterministic arrival across different senders
+            random.shuffle(ready_keys)
 
-        # Shuffle ready messages to simulate non-deterministic arrival order
-        # across different senders (FIFO per sender is preserved by Lamport ts)
-        random.shuffle(ready)
-
-        for _, recipient_id, msg in ready:
-            self.replicas[recipient_id].receive(msg)
+            for key in ready_keys:
+                ch = self.channels[key]
+                if ch and ch[0][0] <= self.current_tick:
+                    _, msg = ch.popleft()
+                    self.replicas[key[1]].receive(msg)
+                    made_progress = True
 
         self.current_tick += 1
 
     def drain(self):
         """Keep ticking until all in-flight messages are delivered."""
-        while self.in_flight:
+        while self.has_pending():
             self.tick()
 
     def has_pending(self) -> bool:
-        return len(self.in_flight) > 0
+        return any(ch for ch in self.channels.values())
